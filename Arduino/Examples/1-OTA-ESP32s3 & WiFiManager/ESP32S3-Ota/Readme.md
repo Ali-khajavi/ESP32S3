@@ -56,7 +56,7 @@ The code supports non-blocking mode for handling OTA updates while maintaining r
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/your_username/ESP32-S3-OTA-Example.git
+   git clone https://github.com/Ali-khajavi/ESP32S3.git
    ```
 
 2. **Install Required Libraries**:
@@ -66,12 +66,10 @@ The code supports non-blocking mode for handling OTA updates while maintaining r
 3. **Edit Configuration**:
    - Uncomment and modify the Wi-Fi credentials if using the fixed SSID/password option.
    - Update the OTA hostname and password in the code as needed.
+   - Upload the code using Arduino IDE
 
-4. **Upload the Code**:
-   - Use [PlatformIO](https://platformio.org/) in VS Code for a seamless development experience.
-
-5. **Test OTA Updates**:
-   - Use an OTA-compatible tool (e.g., Arduino IDE or PlatformIO) to send firmware updates wirelessly.
+4. **Test OTA Updates**:
+   - Use an OTA-compatible tool (e.g., Arduino IDE) to send firmware updates wirelessly.
    - Monitor the serial output for progress and debugging.
 
 ## Requirements
@@ -81,7 +79,7 @@ The code supports non-blocking mode for handling OTA updates while maintaining r
 - Wi-Fi network for connectivity.
 
 ### Software
-- PlatformIO and VS Code (recommended) or Arduino IDE.
+- Arduino IDE.
 - Required libraries as mentioned above.
 
 ## License

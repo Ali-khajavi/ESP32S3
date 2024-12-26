@@ -12,9 +12,8 @@ This repository hosts a collection of projects and examples for the ESP32-S3 mic
 
 ## Repository Structure  
 
-- `/examples/`: This folder will include example projects demonstrating the capabilities of the ESP32-S3 (coming soon).  
-- `/docs/`: Tutorials and detailed documentation for setting up and using the ESP32-S3.  
-- `/src/`: Source code for custom projects utilizing the advanced features of the ESP32-S3.  
+- `Arduino/examples/`: This folder will include example projects demonstrating the capabilities of the ESP32-S3.  
+- `ESP-IDF/example/`: Tutorials and detailed documentation for setting up and using the ESP32-S3 with ESP-IDF for Native developer. (coming soon)
 
 ## Getting Started  
 
